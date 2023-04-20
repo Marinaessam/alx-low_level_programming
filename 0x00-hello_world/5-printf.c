@@ -2,8 +2,8 @@
 
 /**
  * main = Entry Point
- * Description: prinf f with proper grammar, but the outcome is a piece of art,
- * return value = 0
+ * Description: Use the function printf
+ * return value of 'main'=0
 */
 
 int main(void)
