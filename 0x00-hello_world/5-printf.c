@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main = Entry Point
- * Description: Use the function printf
- * return value of 'main'=0
+ * main - Entry point
+ * Description: prints "\"Programming is like building a multilingual puzzle"
+ * Return: 0
 */
 
 int main(void)
