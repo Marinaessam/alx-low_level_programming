@@ -5,16 +5,16 @@
  * Description: prints lowercase alphabet in reverse, followed by a new line.
  * Return: 0
 */
-
-int main(void);
+int main(void)
 {
-	char ch = 'z'
+	char ch = 'z';
 
 	while (ch >= 'a')
 	{
 		putchar(ch);
-		ch--;
+		--ch;
 	}
-	putchar ("\n");
+	putchar('\n');
+
 	return (0);
 }
