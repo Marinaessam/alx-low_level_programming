@@ -7,16 +7,16 @@
 * Return: 0
 */
 
-int main(void);	
+int main(void)
 {
-	char letter = 'a'
+    char letter = 'a';
 
-	while (letter <= 'z')
+        while (letter <= 'z')
 
-	{
-		_putchar (letter);
-		letter++
-	}
+        {
+                _putchar (letter);
+                letter++
+        }
 
 	return (0);
 }
