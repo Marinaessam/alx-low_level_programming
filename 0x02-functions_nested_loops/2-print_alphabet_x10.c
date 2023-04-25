@@ -2,7 +2,7 @@
 #include"main.h"
 
 /**
-* print_alphabet 10 times - lowercase, followed by a new line.
+* print_alphabet_x10 - 10 times - followed by a new line.
 * Return: void
 */
 
