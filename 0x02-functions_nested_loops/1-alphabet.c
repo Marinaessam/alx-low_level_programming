@@ -7,7 +7,7 @@
 * Return: 0
 */
 
-int main(void)
+void print_alphabet(void);
 {
     char letter = 'a';
 
@@ -17,6 +17,7 @@ int main(void)
                 _putchar (letter);
                 letter++
         }
+	_putchar('\n');
 
 	return (0);
 }
