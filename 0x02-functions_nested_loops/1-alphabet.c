@@ -4,20 +4,19 @@
 /**
 * main - Entry Point
 * Description - prints the alphabet, in lowercase, followed by a new line.
-* Return: 0
+* Return: void
 */
 
 void print_alphabet(void);
 {
-    char letter = 'a';
+    	char letter = 'a';
 
         while (letter <= 'z')
 
         {
                 _putchar (letter);
                 letter++
-        }
+	}
 	_putchar('\n');
 
-	return (0);
 }
