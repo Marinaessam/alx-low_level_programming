@@ -24,3 +24,6 @@ int largest;
 	{
 		largest = c;
 	}
+
+	return (largest);
+}
