@@ -1,9 +1,9 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _strchr - prints found c
- * @s: pointer to charhter
- * @c: char to be found
+ * @s: pointer to char
+ * @c: char params to found
  * Return: *S
 */
 
