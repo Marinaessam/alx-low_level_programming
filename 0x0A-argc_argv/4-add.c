@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<type.h>
+#include <type.h>
 
 /**
  * main - adds positive numbers.
  * @argc: number of command line arguments.
  * @argv: value of the progran.
  * Return: 0 - success.
- */
+*/
 
 int main(int argc, char *argv[])
 {
