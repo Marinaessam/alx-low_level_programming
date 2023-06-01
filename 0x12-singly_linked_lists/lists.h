@@ -7,16 +7,23 @@
 
 /**
  * struct list_s - singly linked list
- * @n: integer
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
  * @next: points to the next node
  * Description: singly linked list node structure
  */
 
 typedef struct list_s
 {
-	int n;
+	char *str;
+	unsigned int len;
 	struct list_s *next;
 } list_t;
+
+ /* Function prototypes */
+size_t print_list(const list_t *h);
+ /* Other function prototypes... */
+
 
 /**
  * struct list_t - singly linked list
@@ -25,10 +32,10 @@ typedef struct list_s
  * Description: singly linked list of pointers
  */
 
-typedef struct listp_s
+typedef struct list_t
 {
 	void *p;
-	struct listp_s *next;
+	struct list_t *next;
 } listp_t;
 
 size_t print_list(const list_t *h);
