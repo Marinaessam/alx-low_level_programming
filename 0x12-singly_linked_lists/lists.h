@@ -25,6 +25,11 @@ typedef struct list_s
  * Description: singly linked list of pointers
  */
 
+typedef struct listp_s
+{
+	void *p;
+	struct listp_s *next;
+} listp_t;
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
