@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * free_list - free a list_t list
@@ -9,12 +10,11 @@
 
 void free_list(list_t *head)
 {
-	list_t *current;
-
-	while ((current = head) != NULL)
+	if (head)
 	{
-		head = head->next;
-		free(current->str);
-		free(current);
+		free_list(head->next);
+		if (head->str)
+			free(head->str);
+		free(head);
 	}
 }
