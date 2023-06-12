@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -7,7 +7,8 @@ include "main.h"
  * @file_to: The file_to
  * @argv: arguments
  * Return: void
- */
+*/
+
 void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
@@ -27,7 +28,9 @@ void error_file(int file_from, int file_to, char *argv[])
  * @argc: The number of arguments
  * @argv: arguments
  * Return: Always 0
- */
+*/
+
+
 int main(int argc, char *argv[])
 {
 	int file_from, file_to, err_close;
